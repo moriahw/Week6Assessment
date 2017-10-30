@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<h3>@ViewBag.Message</h3>
+
+<form action="/Home/AddNumbers" method="post">
+
+    Number 1: <input type="text" name="No1" /><br /> @* takes in user number as a string*@
+    Number 2: <input type="text" name="No2" /><br />
+    
+
+    <input type="submit" value="Add" />
+
+</form>
